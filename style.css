@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+* { 
+
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body { 
+ background-color: aliceblue;
+ 
+
+}
+
+ a { 
+  text-decoration: none;
+  color: white;
+
+
+ }
+
+ a:hover { 
+  color: aliceblue;
+  text-decoration: underline;
+
+
+ }
+
+article { 
+
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 3em;
+
+}
+
+header { 
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px;
+ 
+
+
+}
+
+header h1 { 
+  font-size: 35px;
+  font-family: 'Passion One';
+
+
+
+}
+
+article p { 
+ padding-left: 20px;
+ font-weight: bolder;
+ font-size: 1.4em;
+ font-family: 'Sriracha';
+ 
+
+
+}
+
+
+article.normal { 
+  background-color: white;
+  
+
+
+
+
+
+}
+
+article.normal p { 
+    padding-bottom: 30px;
+   
+   
+    }
+
+article.imagem { 
+    background-color: aliceblue;
+  
+
+}
+
+article.imagem p { 
+ background-color: rgba(0, 0, 0, 0.43);
+ height: 350px;
+ color: white;
+
+
+}
+
+article.imagem#imgA { 
+  background-image: url('imagens/background001.jpg');
+  height: 350px;
+  background-position: left center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+article.imagem#imgB { 
+  background-image: url('imagens/background002.jpg');
+  height: 350px;
+  background-position: left center;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+
+footer { 
+ background-color: black;
+ color: white;
+ text-align: center;
+ padding: 5px;
+ margin: auto;
+
+
+}
+
